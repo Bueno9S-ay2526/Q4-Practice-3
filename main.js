@@ -1,6 +1,5 @@
 function Verify() {
   var sectCode = document.getElementById('LbrStn').value;
-
   switch (sectCode)  {
     case "FS";
       document.getElementById('DLbrStn').innerhtml="You will be directed to the Fiction Section";break;
